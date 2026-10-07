@@ -1,0 +1,22 @@
+[
+    {
+        "nama": "minyak",
+        "harga": "18000",
+        "stok": "10"
+    },
+    {
+        "nama": "indomie goreng",
+        "harga": "3000",
+        "stok": "20"
+    },
+    {
+        "nama": "Shampoo sunsilk",
+        "harga": "24000",
+        "stok": "15"
+    },
+    {
+        "nama": "Odol Pepsodent",
+        "harga": "15",
+        "stok": "7"
+    }
+]
