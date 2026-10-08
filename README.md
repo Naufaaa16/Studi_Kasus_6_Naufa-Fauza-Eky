@@ -1,8 +1,8 @@
 # Studi_Kasus_6_Naufa-Fauza-Eky
 
-nama: Naufa Fauza Eky
-nim: 2609116060 (genap)
-kelas: B
+## nama: Naufa Fauza Eky
+## nim: 2609116060 (genap)
+## kelas: B
 
 SISTEM MANAJEMEN INVENTARIS BARANG
 Sistem ini merupakan sistem yang berisikan data-data inventaris produk atau barang yang dimiliki oleh toko kelontong. Sistem ini dibuat menggunakan python dan file json. Didalam sistem ini pengguna dapat melihat data produk, menambahkan data produk, keluar dari program. Data yang disimpan meliputi nama produk, harga dan stok produk.
