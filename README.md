@@ -9,12 +9,20 @@ Sistem ini merupakan sistem yang berisikan data-data inventaris produk atau bara
 
 PENJELASAN PROGRAM
 A. File Python 
-1. <img width="586" height="274" alt="WhatsApp Image 2026-10-07 at 22 28 12" src="https://github.com/user-attachments/assets/5892f6d8-fbf4-4cf8-a3e6-28c600dff5a6" />
+<img width="586" height="274" alt="WhatsApp Image 2026-10-07 at 22 28 12" src="https://github.com/user-attachments/assets/5892f6d8-fbf4-4cf8-a3e6-28c600dff5a6" />
 Diawali dengan import json agar bisa menyimpan data menggunakan json. lalu menggunakan while True agar menu bisa ditampilkan secara berulang sebelum pengguna memilih untuk keluar, berikutnya kode yang menggunakan "print" digunakan untuk menampilkan pilihan menu, dan setelah itu dibaris akhir terdapat kode untuk menyimpan pilihan variabel ke "pilihan"
-2. <img width="876" height="256" alt="WhatsApp Image 2026-10-07 at 22 28 46" src="https://github.com/user-attachments/assets/e43a4e35-5e32-438f-b21d-40b1f0a80b2d" />
-kode ini dibuat untuk pengguna jika memilih pilihan no 1 lalu terdapat kode "with open ..." untuk membuka file json, setelah itu untuk membaca isi json menggunakan kode json.load. Selanjutnya terdapat kode untuk menampilkan keterangan bahwa data telah tersimpan dan terdapat kode untuk menampilkan isi data barang yang meliputi nama, harga, stok produk.
-3. <img width="919" height="508" alt="WhatsApp Image 2026-10-07 at 22 29 12" src="https://github.com/user-attachments/assets/cd791a70-a25d-4949-8173-028b62608fc3" />
-4. <img width="772" height="127" alt="WhatsApp Image 2026-10-07 at 22 29 32" src="https://github.com/user-attachments/assets/d4603ec8-c8b3-47ca-90bb-c7c0fe120282" />
+
+
+<img width="876" height="256" alt="WhatsApp Image 2026-10-07 at 22 28 46" src="https://github.com/user-attachments/assets/e43a4e35-5e32-438f-b21d-40b1f0a80b2d" />
+kode ini dibuat untuk pengguna jika memilih pilihan no 1, lalu terdapat kode "with open ..." untuk membuka file json, setelah itu untuk membaca isi json menggunakan kode json.load. Selanjutnya terdapat kode untuk menampilkan keterangan bahwa data telah tersimpan dan terdapat kode untuk menampilkan isi data barang yang meliputi nama, harga, stok produk.
+
+
+<img width="919" height="508" alt="WhatsApp Image 2026-10-07 at 22 29 12" src="https://github.com/user-attachments/assets/cd791a70-a25d-4949-8173-028b62608fc3" />
+kode yang ada difoto ini berfungsi untuk menampilkan keterangan agar pengguna bisa mengisi input jika pengguna memilih pilihan no 2 (tambah data) lalu terdapat kode "with open..." untuk mengambil data yang sudah tersimpan sebelumnya, selanjutnya terdapat kode "data.append..." agar data produk yg dimasukan oleh pengguna dapat ditambahkan ke dalam data, dan menggunakan kode with open file json agar data yang sudah ditambahkan diisi kembali ke file ddp6.json
+
+
+<img width="772" height="127" alt="WhatsApp Image 2026-10-07 at 22 29 32" src="https://github.com/user-attachments/assets/d4603ec8-c8b3-47ca-90bb-c7c0fe120282" />
+kode ini untuk pengguna jika memilih pilihan no 3, jika memilih pilihan no 3, kode akan menampilkan hasil berupa kalimat terimakasih telah menggunakan program ini, dan menggunakan break untuk memberhentikan program.
 
 B. File Json
 1. Sebelum Ditambah dari output py
@@ -22,6 +30,7 @@ B. File Json
 
 2. Sesudah Ditambah dari output py
    <img width="562" height="691" alt="WhatsApp Image 2026-10-07 at 22 31 31" src="https://github.com/user-attachments/assets/16e24a2a-74fc-491c-b267-b214bd7d2c53" />
+   Data yang sudah diisi sebelumnya akan tetap tersimpan karena menggunakan file json
 
 OUTPUT
 Pilihan 1
